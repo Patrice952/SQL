@@ -47,7 +47,7 @@ CREATE TABLE PROF_SPECIALITE (
 
 
 
---trigger pour maj INSERT, UPDATE, DELETE de la table professeurs--
+--trigger pour maj INSERT, UPDATE, DELETE de la table professeurs: la specialiteé et le num du prof--
 CREATE TRIGGER TR_PROFESSEURS_MAJ
 ON PROFESSEURS
 AFTER INSERT, UPDATE, DELETE
